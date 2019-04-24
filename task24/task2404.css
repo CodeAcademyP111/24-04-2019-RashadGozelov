@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.color1{
+    height: 100px;
+    background-color: black;
+}
+.color2{
+    height: 100px;
+    background-color: yellow;
+}
+.color3{
+    height: 100px;
+    background-color: blue;
+}
+.color4{
+    height: 100px;
+    background-color: red;
+}
+.color5{
+    height: 100px;
+    background-color: gray;
+}
+.color6{
+    height: 100px;
+    background-color: green;
+}
+.clearfix{
+    clear: both;
+}
+
+[class*="col-"]{
+    float: left;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.logo,.col-6{
+    height: 50px;
+}
+#slider{
+    width: 100%;
+    height: 400px;
+    background-color: #212529;
+    margin-top:-20px;
+}
+#static .row1{
+    height: 200px;
+    background-color: aqua;
+}
+#static .row2{
+    height: 200px;
+    background-color: brown;
+}
+#static .col-3 {
+    height: 200px;
+}
+#about .row1{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+}
+#about .row2 .col-6{
+    height: 200px;
+}
+#feature .container .row1{
+    height: 200px;
+    background-color: black;
+}
+#feature .container .row2 .col-4{
+    height: 200px;
+}
+#video{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+#plan .container .row{
+    height: 200px;
+    background-color: red;
+}
+#plan .col-3{
+    height: 200px;
+}
+#top .container .row{
+    height: 200px;
+    background-color: sienna;
+}
+#top .col-3{
+    height: 200px;
+}
+#client .container .row{
+    height: 200px;
+    background-color: brown;
+} 
+#client .col-6{
+    height: 200px;
+}
+#calculate{
+    height: 200px;
+    background-color: #212529;
+}
+#transaction .container .row{
+    height: 150px;
+    background-color: aqua;
+}
+#transaction .row2{
+    height: 200px;
+    background-color: black;
+}
+#refferal .container .row{
+    height: 100px;
+    background-color: rebeccapurple;
+}
+#refferal .row2{
+    height: 150px;
+    background-color: blue;
+}
+#method{
+    width: 100%;
+    height: 200px;
+    background-color: #212529;
+}
+#blog-post .container .row{
+    height: 200px;
+    background-color: green;
+}
+#blog-post .col-4{
+    height: 200px;
+}
+.center{
+    height: 70px;
+    background-color: #212529;
+}
+
+
+
+
